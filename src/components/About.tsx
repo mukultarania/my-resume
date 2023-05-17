@@ -1,19 +1,10 @@
 import React from "react";
-import "./About.css";
+import "./css/About.css";
 
 function About() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
-        <div className="profile-details-role">
-          {" "}
-          <p>
-            A highly motivated individual with a passion for constantly
-            developing skills and growing professionally. I thrive for
-            creativity, innovation and aesthetics. I am a fast learner, always
-            on the lookout for opportunities.
-          </p>
-        </div>
         <div className="profile-details-eduction">
           {" "}
           <div>
