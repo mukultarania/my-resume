@@ -8,8 +8,8 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div id = "mmenu" className="container-fluid main_container">
-      <div className="vh-100">
+    <div id = "mmenu" className="container main_container">
+      <div className="row p-3 my-3 border">
         <Main/>
       </div>
       <div className="row p-3 my-3 border">
