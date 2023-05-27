@@ -2,8 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <header>
-    </header>
+    <div id="inner-nav" style={{background: "#0e141e"}}></div>
   );
 }
 

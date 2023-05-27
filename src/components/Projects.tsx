@@ -1,18 +1,41 @@
 import React from "react";
+import "../App.css";
 
 function Projects() {
   return (
-    <div className="proj-container">
-      <div className="proj-parent">
-        <div className="proj-heading">
-            <h4>Projects</h4>
-        </div>
-        <ol>
-            <li>Vaccine Slot Tracker</li>
-            <li>Interactive Learning with Augmented Reality (Major
-Project)</li>
-        </ol>
-      </div>
+    <div className="card">
+      <p>
+        <i className="fas fa-briefcase stroke-transparent"></i>
+        &nbsp;&nbsp;&nbsp;Projects
+      </p>
+      <ul>
+        <li>
+          <p className="tags">
+            Vaccine Slot Tracker <br />
+            <span>
+              <span>October 2021 - PRESENT</span>
+            </span>
+          </p>
+          <p>
+            Worked on the upgradation of microservice and end-to-end deployment
+            of code. Also worked on the adoption of the BOM files. Worked on new
+            design changes to the existing flow for one of the packaging
+            services.
+          </p>
+        </li>
+        <li>
+          <p className="tags">
+            Interactive Learning with Augmented Reality (Major Project) <br />
+            <span>
+              <span>May 2020 - October 2020</span>
+            </span>
+          </p>
+          <p>
+            Worked as a part of the Job Board (Web Services) team to develop
+            Job-Fair website for Gautam Buddha University.
+          </p>
+        </li>
+      </ul>
     </div>
   );
 }
