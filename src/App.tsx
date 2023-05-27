@@ -8,12 +8,11 @@ import Education from "./components/Education";
 
 function App() {
   return (
-    <div className="container">
-      <div className="row">
+    <div id="main-cont" className="container-fluid">
+      <div  className="row">
         <div className="col">
           <Main />
         </div>
-
         <div id="info-cards" className="col">
           <Education />
           <Exp />

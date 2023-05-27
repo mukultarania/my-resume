@@ -13,6 +13,9 @@ hr{
   position: relative;
   display: flex;
 }
+#main-cont{
+  margin-left: 5%;
+}
 #profile{
   flex: 15%;
   display: block;
@@ -24,7 +27,7 @@ hr{
 #info-cards{
   flex: 55%;
   display: block;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-right: 10%;
   width: 100%;
   height: 100%;
@@ -136,6 +139,7 @@ strong,span{
   margin-bottom: 30px;
   padding: 15px 30px 30px 30px;
   background-color: #fff;
+  border-bottom: #555;
 }
 .card > p{
   color: #0e141e;
