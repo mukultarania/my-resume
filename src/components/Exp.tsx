@@ -4,14 +4,15 @@ import "../App.css";
 function Exp() {
   return (
     <div className="card">
-      <p>
+      <p id="head-color">
         <i className="fas fa-briefcase stroke-transparent"></i>
-        &nbsp;&nbsp;&nbsp;Experience
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience
       </p>
       <ul>
         <li>
           <p className="tags">
-            TCS, Delhi — Backend Developer <br />
+            Backend Developer - TCS, Delhi
+            <br />
             <span>
               <span>October 2021 - PRESENT</span>
             </span>
@@ -25,8 +26,8 @@ function Exp() {
         </li>
         <li>
           <p className="tags">
-            Software Developer Intern, Remote - Developer (May 2020 - October
-            2020) <br />
+            Software Developer Intern FICCI, Remote - Developer
+            <br />
             <span>
               <span>May 2020 - October 2020</span>
             </span>
@@ -34,6 +35,24 @@ function Exp() {
           <p>
             Worked as a part of the Job Board (Web Services) team to develop
             Job-Fair website for Gautam Buddha University.
+            <br />
+            <span className="tags">
+              <span>
+                <a id="link-color" href="https://gbujobs.com/" target="_blank">
+                  GBU Jobs
+                </a>
+              </span>
+              <br />
+              <span>
+                <a
+                  id="link-color"
+                  href="https://drive.google.com/file/d/1ysIBZMc2pUvclQaCbwlczE6tvQ5FNJbt/view?usp=sharing"
+                  target="_blank"
+                >
+                  Certificate
+                </a>
+              </span>
+            </span>
           </p>
         </li>
       </ul>

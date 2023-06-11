@@ -1,38 +1,60 @@
 import React from "react";
-import "../App.css";
+import "./css/projects.css";
 
 function Projects() {
   return (
     <div className="card">
-      <p>
-        <i className="fas fa-briefcase stroke-transparent"></i>
-        &nbsp;&nbsp;&nbsp;Projects
-      </p>
+      <p id="head-color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects</p>
       <ul>
         <li>
           <p className="tags">
             Vaccine Slot Tracker <br />
-            <span>
-              <span>October 2021 - PRESENT</span>
-            </span>
           </p>
           <p>
-            Worked on the upgradation of microservice and end-to-end deployment
-            of code. Also worked on the adoption of the BOM files. Worked on new
-            design changes to the existing flow for one of the packaging
-            services.
+            VST, Vaccine Slot Tracker. VST can be used to find slots for
+            vaccines in India using Cowin API. <br />
+            <a
+              id="link-color"
+              target="_blank"
+              href="https://play.google.com/store/apps/details?id=com.api.trackslots"
+            >
+              Link
+            </a>
+          </p>
+        </li>
+        <li>
+          <p className="tags">
+            AUGMENTED REALITY IN ACADEMIA (Dissertation) <br />
+          </p>
+          <p>
+            The main aim of this research is to make a module by which we can
+            integrate AR with the smart devices. It will help students to
+            increase their knowledge more towards fundamental concepts.
+            <br />
+            <a
+              id="link-color"
+              target="_blank"
+              href="https://drive.google.com/file/d/1RxrmAJnC3gBqZYJP-LIm2hZ8dKvEnPVz/view?usp=sharing"
+            >
+              Link
+            </a>
           </p>
         </li>
         <li>
           <p className="tags">
             Interactive Learning with Augmented Reality (Major Project) <br />
-            <span>
-              <span>May 2020 - October 2020</span>
-            </span>
           </p>
           <p>
-            Worked as a part of the Job Board (Web Services) team to develop
-            Job-Fair website for Gautam Buddha University.
+            Created AR android application using Vuforia and unity to make
+            content of textbook more interactive.
+            <br />
+            <a
+              id="link-color"
+              target="_blank"
+              href="https://github.com/mukultarania/AR-App"
+            >
+              Link
+            </a>
           </p>
         </li>
       </ul>

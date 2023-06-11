@@ -51,13 +51,10 @@ function Skills() {
 
   return (
     <div className="card">
-      <p>
-        <i className="fas fa-briefcase stroke-transparent"></i>
-        &nbsp;&nbsp;&nbsp;Skills
-      </p>
-      <div className="row fas fa-briefcase stroke-transparent ">
-        <div className="col" ></div>
+      <p id="head-color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills</p>
+      <div id="inner-pad" className="row fas fa-briefcase stroke-transparent">
         <div
+        
           tabIndex={1}
           className="col border rounded"
           onClick={() => language("lang")}
