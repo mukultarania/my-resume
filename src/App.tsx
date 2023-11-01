@@ -11,16 +11,12 @@ import Navbar from "./components/Navbar";
 
 import { ThemeProvider } from "styled-components";
 import { Header } from "./style";
-import { THEME } from "./constants/theme";
-import { getTheme } from "./themes/getTheme";
 
 function App() {
-  const [themeNames, setThemeName] = useState(THEME.DARK);
-
   return (
     <div>
       {/* <Navbar /> */}
-      <ThemeProvider theme={getTheme(themeNames)}>
+      <div>
         <Header id="main-cont" className="container-fluid">
           <div className="row">
             <div className="col">
@@ -34,7 +30,7 @@ function App() {
             </div>
           </div>
         </Header>
-      </ThemeProvider>
+      </div>
     </div>
   );
 }
